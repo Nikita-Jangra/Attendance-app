@@ -1,0 +1,30 @@
+.edit-notice-1{
+    width: 100%;
+    min-height: 100vh;
+    margin:  0 auto;
+    background-color:  #c9e3fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+.sumbitbtn{
+    margin-top: 25px;
+    width: 100px;
+    background-color: rgb(39, 140, 255);
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+.sumbitbtn:hover{
+    background-color: rgb(6, 83, 207);
+    color: aliceblue;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.textarea-notice{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgb(134, 135, 135);
+}

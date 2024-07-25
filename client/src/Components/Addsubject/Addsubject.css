@@ -1,0 +1,48 @@
+.add-subject-container-1{
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color:  #c9e3fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-subject-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.add-form{
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 0px 20px 20px 20px;
+    box-shadow: 1px 1px 10px rgb(134, 135, 135);
+}
+.add-form input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    font-weight: bold;
+    color: rgb(65, 65, 65);
+}
+.select-subject{
+    width: 100%;
+    padding: 8px;
+    color: rgb(65, 65, 65);
+}
+.sumbit-btn{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(39, 140, 255);
+    border-radius: 10px;
+    border: none;
+}
+.sumbit-btn:hover{
+    background-color: rgb(6, 83, 207);
+    color: aliceblue;
+    transition: 0.3s;
+    cursor: pointer;
+}

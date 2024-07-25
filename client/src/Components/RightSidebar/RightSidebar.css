@@ -1,0 +1,21 @@
+.rightside-container-1{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-color: rgb(186, 216, 253);
+    margin: 0 auto;
+
+}
+.rightside-container-2{
+    align-items: right;
+    justify-content:right;
+  
+}
+.heading-1{
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    float: right;
+    align-items: right;
+    justify-content:right;
+    padding-right: 50px;
+}
